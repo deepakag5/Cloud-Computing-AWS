@@ -1,7 +1,7 @@
 
 # AWS User/Group/Role Creation
 
-# Create Users S3TestUser and EC2TestUser
+# Create Users - S3TestUser and EC2TestUser
 
 Create S3TestUser. Provide the name of the user with access type as both access key and password
 
