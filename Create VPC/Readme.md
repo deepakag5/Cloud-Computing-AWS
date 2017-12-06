@@ -126,26 +126,24 @@ Review and Launch the ‘PrivateEC2Instance’. Attach the ‘publickey.pem’ c
 ![34_both_ec2_running](https://user-images.githubusercontent.com/32446623/33646222-82fcad66-da1c-11e7-94ec-aebba84a466f.jpg)
 
 Installed Putty, Puttygen and Pageant. Successfully generated ‘publickey.ppk’ file using Puttygen. Saved the file as private key.	 
-
-![35_login_nat_using_putty](https://user-images.githubusercontent.com/32446623/33646223-8306021c-da1c-11e7-9d40-2eb33a47ee89.jpg)
-Added the generated .ppk key to Pageant Key List	 
-
-![36_nat_ec2_ping](https://user-images.githubusercontent.com/32446623/33646224-83115aea-da1c-11e7-83f0-c80f2d424c84.jpg)
-After doing proper configurations for NAT Instance in Putty, successfully logged in as ec2-user	 
-
-![37_connect_nat_to_private_instance](https://user-images.githubusercontent.com/32446623/33646225-831a71ca-da1c-11e7-81b3-382e110c00f0.JPG)
-
-Succesfully pinged ietf.org	 
 ![key](https://user-images.githubusercontent.com/32446623/33646226-8323574a-da1c-11e7-88b0-0211b5416c22.JPG)
-
-Performed SSH from NAT to Private EC2Intance using its private IP (10.200.50.122)
-
-![pageant](https://user-images.githubusercontent.com/32446623/33646227-835af7e0-da1c-11e7-83f2-b13b70effce6.JPG)
-
 
 ![puttygen](https://user-images.githubusercontent.com/32446623/33646228-83640d3a-da1c-11e7-8b3b-3f72d95e14d9.JPG)
 
+Added the generated .ppk key to Pageant Key List	 
+![pageant](https://user-images.githubusercontent.com/32446623/33646227-835af7e0-da1c-11e7-83f2-b13b70effce6.JPG)
+
+
+After doing proper configurations for NAT Instance in Putty, successfully logged in as ec2-user	 
+![35_login_nat_using_putty](https://user-images.githubusercontent.com/32446623/33646223-8306021c-da1c-11e7-9d40-2eb33a47ee89.jpg)
+
+
+Succesfully pinged ietf.org	 
+![36_nat_ec2_ping](https://user-images.githubusercontent.com/32446623/33646224-83115aea-da1c-11e7-83f0-c80f2d424c84.jpg)
+
 Performed SSH from NAT to Private EC2Intance using its private IP (10.200.50.122)
+![37_connect_nat_to_private_instance](https://user-images.githubusercontent.com/32446623/33646225-831a71ca-da1c-11e7-81b3-382e110c00f0.JPG)
+
 
 ![t2_1_create_publicsubnet2](https://user-images.githubusercontent.com/32446623/33646229-836df700-da1c-11e7-927a-810747fe6385.jpg)
 
