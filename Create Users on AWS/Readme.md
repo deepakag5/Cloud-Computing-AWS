@@ -82,21 +82,26 @@ S3TestUser IAM permission fail check
 
 ![image](https://user-images.githubusercontent.com/32446623/33645155-57043814-da17-11e7-9c37-e840496633c5.png)
 
-# User EC2 Service Manipulation Check
 
-S3TestUser EC2 Service Manipulation Check
 
 
 ![image](https://user-images.githubusercontent.com/32446623/33645161-5fb9f5c0-da17-11e7-91f4-cb2f406816e4.png)
 
 
-# User Bucket Creation
+# User EC2 Service Manipulation Check
 
 S3TestUser EC2 Service Manipulation Check
 
+
 ![image](https://user-images.githubusercontent.com/32446623/33645166-657156a2-da17-11e7-9414-5d347294b7be.png)
 
+
+# User Bucket Creation
+
+S3TestUser Bucket Created and file uploaded
+
 ![image](https://user-images.githubusercontent.com/32446623/33645172-6a1380ae-da17-11e7-90cd-c348b3dd9829.png)
+
 
 # User Bucket Access Denied
 
