@@ -27,19 +27,18 @@ Create EC2TestUser. Provide the name of the user with access type as both access
 ![image](https://user-images.githubusercontent.com/32446623/33644930-0f667a4a-da16-11e7-8977-2a83e52d8dcc.png)
 
 
+![image](https://user-images.githubusercontent.com/32446623/33644933-152a4b28-da16-11e7-843f-91f56e5d0d28.png)
+
 # Create a Group EC2TestGroup
 
 Create the Group
 
-![image](https://user-images.githubusercontent.com/32446623/33644933-152a4b28-da16-11e7-843f-91f56e5d0d28.png)
+![image](https://user-images.githubusercontent.com/32446623/33644959-3b04a17c-da16-11e7-8a40-279a333d2ca8.png)
 
 Assign Permissions
 
-![image](https://user-images.githubusercontent.com/32446623/33644959-3b04a17c-da16-11e7-8a40-279a333d2ca8.png)
-
-Group Created Successfully
-
 ![image](https://user-images.githubusercontent.com/32446623/33644964-3f97494c-da16-11e7-9150-acfd7fe2ef9a.png)
+
 
 # Add user to the Group
 
