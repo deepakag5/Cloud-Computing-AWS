@@ -68,21 +68,21 @@ Assign name to the Role
 
 ![image](https://user-images.githubusercontent.com/32446623/33645146-4deb367e-da17-11e7-845c-105ce630ebe3.png)
 
-# User Login
-
-Login using S3TestUser Credentials
 
 ![image](https://user-images.githubusercontent.com/32446623/33645153-51cf0144-da17-11e7-9fe5-a4dfa09f7cf4.png)
 
-# User IAM Access Denied
 
-S3TestUser IAM permission fail check
+# User Login
 
+Login using S3TestUser Credentials
 
 
 ![image](https://user-images.githubusercontent.com/32446623/33645155-57043814-da17-11e7-9c37-e840496633c5.png)
 
 
+# User IAM Access Denied
+
+S3TestUser IAM permission fail check
 
 
 ![image](https://user-images.githubusercontent.com/32446623/33645161-5fb9f5c0-da17-11e7-91f4-cb2f406816e4.png)
