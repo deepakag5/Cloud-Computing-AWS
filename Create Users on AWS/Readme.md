@@ -5,11 +5,18 @@
 
 Provide the name of the user with access type as both access key and password
 
+
 ![image](https://user-images.githubusercontent.com/32446623/33644905-e5612eb6-da15-11e7-9eb9-2a48082cccaf.png)
+
 
 Provide AmazonS3FullAccess to S3TestUser
 
+
 ![image](https://user-images.githubusercontent.com/32446623/33644923-045c6204-da16-11e7-9197-281583a4406b.png)
+
+
+Successfully created S3TestUser
+
 
 ![image](https://user-images.githubusercontent.com/32446623/33644928-09feb6f8-da16-11e7-9f87-c5a15aa48d56.png)
 
