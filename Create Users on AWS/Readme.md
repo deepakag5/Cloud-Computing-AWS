@@ -48,25 +48,23 @@ Add User EC2TestUser to the group
 
 ![image](https://user-images.githubusercontent.com/32446623/33645115-2fde470c-da17-11e7-9022-115d5d9c6498.png)
 
+
+![image](https://user-images.githubusercontent.com/32446623/33645126-402f132a-da17-11e7-867f-1607c7b603fd.png)
+
 # Create a Role EC2Describe
 
 Choose a EC2 role
 
 
-
-![image](https://user-images.githubusercontent.com/32446623/33645126-402f132a-da17-11e7-867f-1607c7b603fd.png)
+![image](https://user-images.githubusercontent.com/32446623/33645138-46d2918e-da17-11e7-9ef1-9bec9b92afda.png)
 
 Assign Permission to the Role
 
 
+![image](https://user-images.githubusercontent.com/32446623/33645146-4deb367e-da17-11e7-845c-105ce630ebe3.png)
 
-![image](https://user-images.githubusercontent.com/32446623/33645138-46d2918e-da17-11e7-9ef1-9bec9b92afda.png)
 
 Assign name to the Role
-
-
-
-![image](https://user-images.githubusercontent.com/32446623/33645146-4deb367e-da17-11e7-845c-105ce630ebe3.png)
 
 
 ![image](https://user-images.githubusercontent.com/32446623/33645153-51cf0144-da17-11e7-9fe5-a4dfa09f7cf4.png)
