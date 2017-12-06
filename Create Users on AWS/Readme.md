@@ -18,10 +18,10 @@ Provide AmazonS3FullAccess to S3TestUser
 Successfully created S3TestUser
 
 
-Create EC2TestUser. Provide the name of the user with access type as both access key and password
-
-
 ![image](https://user-images.githubusercontent.com/32446623/33644928-09feb6f8-da16-11e7-9f87-c5a15aa48d56.png)
+
+
+Create EC2TestUser. Provide the name of the user with access type as both access key and password
 
 
 ![image](https://user-images.githubusercontent.com/32446623/33644930-0f667a4a-da16-11e7-8977-2a83e52d8dcc.png)
