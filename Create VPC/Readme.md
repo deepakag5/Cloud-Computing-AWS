@@ -41,12 +41,17 @@ Create Route Table under LabVPC
 PublicRoute Created Successfully	 
 ![12_created_public_route](https://user-images.githubusercontent.com/32446623/33646199-81b57a6e-da1c-11e7-9721-16bf1d663294.JPG)
 Attach LabVPCGateway to the PublicRoute Route Table with destination as 0.0.0.0/0 	 
+
 ![13_add_vpc_public_route](https://user-images.githubusercontent.com/32446623/33646200-81bfa502-da1c-11e7-8c38-88acf32c984a.jpg)
-LabVPCGateway Attached Sucessfully to PublicRoute 	 
+
+LabVPCGateway Attached Sucessfully to PublicRoute 
+
 ![14_added_vpc_public_route](https://user-images.githubusercontent.com/32446623/33646201-81c8581e-da1c-11e7-9ad2-de78a8a2e64d.JPG)
+
 Attach PublicSubnet1 to this PublicRoute Table under Subnet Associations Tab	 
 
 ![15_add_public_subnet_public_route](https://user-images.githubusercontent.com/32446623/33646202-81d1d380-da1c-11e7-83fb-727f4dc68942.JPG)
+
 PublicSubnet1 attached successfully to PublicRoute	 
 
 
@@ -120,12 +125,15 @@ Under this add key as ‘Value’ and Value as ‘PrivateEC2’, click on ‘Con
 Create a new security group named as ‘PrivateEC2’ and provide appropriate description. Under SSH Rule which is already there select source as ‘Custom’ and attach ‘NATSB’ security group to it created earlier
 
 ![33_create_ec2_add_security_group](https://user-images.githubusercontent.com/32446623/33646221-82f2184c-da1c-11e7-8c0b-d6afc0de5400.JPG)
+
 Review and Launch the ‘PrivateEC2Instance’. Attach the ‘publickey.pem’ created earlier by choosing ‘choose an existing key-pair’ option. As we can see both instances are running on AWS	 
 
 
 ![34_both_ec2_running](https://user-images.githubusercontent.com/32446623/33646222-82fcad66-da1c-11e7-94ec-aebba84a466f.jpg)
 
 Installed Putty, Puttygen and Pageant. Successfully generated ‘publickey.ppk’ file using Puttygen. Saved the file as private key.	 
+
+
 ![key](https://user-images.githubusercontent.com/32446623/33646226-8323574a-da1c-11e7-88b0-0211b5416c22.JPG)
 
 ![puttygen](https://user-images.githubusercontent.com/32446623/33646228-83640d3a-da1c-11e7-8b3b-3f72d95e14d9.JPG)
