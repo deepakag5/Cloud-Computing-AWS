@@ -88,8 +88,8 @@ Upload the data by running above script and check the data in mysql table.
 ![image012](https://user-images.githubusercontent.com/32446623/33729285-17f18cc8-db4b-11e7-897c-997137df3ffb.jpg)
 
 
-We can install R and Rstudio Server on EC2 instance and use the same Rscript file with PrivateRDS connection string and execute it to  
-generated the required graph. 
+We can install R and Rstudio Server on EC2 instance and use the same Rscript file with PrivateRDS connection string and 
+execute it to generated the required graph. 
 
 
 ![image013](https://user-images.githubusercontent.com/32446623/33729286-17ffd404-db4b-11e7-9d35-4640ff9c9360.gif)
