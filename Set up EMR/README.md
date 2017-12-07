@@ -90,7 +90,7 @@ run a wordcount program using python on AWS Hadoop EMR.
 
 
 
-Let’s not forget to terminate the cluster ! (To avoid incurring unnecesary bill $$$)
+Let’s not forget to terminate the cluster ! (To avoid incurring unnecessary charges $$$)
 
 
 
