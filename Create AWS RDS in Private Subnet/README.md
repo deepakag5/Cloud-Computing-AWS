@@ -5,6 +5,7 @@
 # Check VPC configuration
 
 
+
 Check if LabVPC DNS Hostname is enabled
 
 
