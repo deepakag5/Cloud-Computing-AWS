@@ -211,31 +211,51 @@ Installed Putty, Puttygen and Pageant. Successfully generated â€˜publickey.ppkâ€
 
 ![key](https://user-images.githubusercontent.com/32446623/33646226-8323574a-da1c-11e7-88b0-0211b5416c22.JPG)
 
+
 ![puttygen](https://user-images.githubusercontent.com/32446623/33646228-83640d3a-da1c-11e7-8b3b-3f72d95e14d9.JPG)
 
 Added the generated .ppk key to Pageant Key List	 
+
 
 ![pageant](https://user-images.githubusercontent.com/32446623/33646227-835af7e0-da1c-11e7-83f2-b13b70effce6.JPG)
 
 
 After doing proper configurations for NAT Instance in Putty, successfully logged in as ec2-user	 
+
+
 ![35_login_nat_using_putty](https://user-images.githubusercontent.com/32446623/33646223-8306021c-da1c-11e7-9d40-2eb33a47ee89.jpg)
 
 
 Succesfully pinged ietf.org	 
+
+
 ![36_nat_ec2_ping](https://user-images.githubusercontent.com/32446623/33646224-83115aea-da1c-11e7-83f0-c80f2d424c84.jpg)
 
 Performed SSH from NAT to Private EC2Intance using its private IP (10.200.50.122)
+
+
 ![37_connect_nat_to_private_instance](https://user-images.githubusercontent.com/32446623/33646225-831a71ca-da1c-11e7-81b3-382e110c00f0.JPG)
 
 
 ![t2_1_create_publicsubnet2](https://user-images.githubusercontent.com/32446623/33646229-836df700-da1c-11e7-927a-810747fe6385.jpg)
 
+
 Attach PublicSubnet2 to existing PublicRoute Table
+
+
 ![t2_2_create_privatesubnet2](https://user-images.githubusercontent.com/32446623/33646230-839b7d88-da1c-11e7-90a0-bb6a0b3ea76e.jpg)
+
+
 Create PrivateSubnet2 under same AZ as PublicSubnet2. Attach PrivateSubnet2 to LabVPC and enter appropriate CIDR blocks (10.200.55.0/24)
+
+
 ![t2_3_publicsubnet2_added](https://user-images.githubusercontent.com/32446623/33646231-83a4ff3e-da1c-11e7-820d-ef68d0589ebf.jpg)
+
+
 Attach PrivateSubnet2 to existing PrivateRoute Table
+
+
+
 ![t2_4_privatesubnet_added](https://user-images.githubusercontent.com/32446623/33646232-83ae3b94-da1c-11e7-99e8-12f6a2cfe8c7.jpg)
 
 
