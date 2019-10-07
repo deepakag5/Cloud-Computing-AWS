@@ -41,3 +41,8 @@ def copy_to_bucket(bucket_from, bucket_to, file_name):
 
 FILE_TO_COPY = "20190303_cnty_acs_2013_2017_absolute_values.csv"
 copy_to_bucket(bucket_name,new_bucket_name,FILE_TO_COPY)
+
+
+# deleting a object (file) from s3
+FILE_TO_DELETE = "20190303_cnty_acs_2013_2017_absolute_values.csv"
+s3.Object(new_bucket_name, FILE_TO_DELETE).delete()
