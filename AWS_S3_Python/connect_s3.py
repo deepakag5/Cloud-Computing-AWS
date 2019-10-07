@@ -25,8 +25,8 @@ s3.Object(bucket_name, file_name).download_file(file_name)
 new_bucket_name = "census.us.data.new"
 s3.create_bucket(Bucket=new_bucket_name)
 
-# upload a file to the bucket in s3
-s3.Object(new_bucket_name, file_name).upload_file(file_name)
+# upload a file to the bucket in s3 and also provide encryption and Access Control for public read
+s3.Object(new_bucket_name, file_name).upload_file(file_name, ExtraArgs={'ServerSideEncryption':'AES256', 'ACL':'public-read'})
 
 
 # copying file between buckets
