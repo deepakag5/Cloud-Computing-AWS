@@ -17,8 +17,13 @@ for obj in bucket_obj.objects.all():
     print(obj.key)
 
 
+# downloading a file from bucket
+file_name = 'census_data_2017.RData'
+s3.Object(bucket_name, file_name).download_file(file_name)
+
 # create a bucket in s3
 new_bucket_name = "census.us.data.new"
 
 s3.create_bucket(Bucket=new_bucket_name)
+
 
