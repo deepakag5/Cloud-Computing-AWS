@@ -1,3 +1,4 @@
+# import boto library
 import boto3
 
 # create a s3 resource
@@ -14,3 +15,10 @@ bucket_obj = s3.Bucket(name=bucket_name)
 print("bucket "+bucket_name+" has below objects")
 for obj in bucket_obj.objects.all():
     print(obj.key)
+
+
+# create a bucket in s3
+new_bucket_name = "census.us.data.new"
+
+s3.create_bucket(Bucket=new_bucket_name)
+
