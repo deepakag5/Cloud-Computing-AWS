@@ -46,3 +46,30 @@ copy_to_bucket(bucket_name,new_bucket_name,FILE_TO_COPY)
 # deleting a object (file) from s3
 FILE_TO_DELETE = "20190303_cnty_acs_2013_2017_absolute_values.csv"
 s3.Object(new_bucket_name, FILE_TO_DELETE).delete()
+
+# delete a bucket
+
+# to delete a non-empty bucket all its objects and their versions must be removed
+def delete_all_obj(bucket_name):
+
+    # create a empty list to hold objects
+    list_obj = []
+
+    # get the bucket name
+    bucket = s3.Bucket(bucket_name)
+
+    # get name of all the objects along with their versions
+    for obj_ver in bucket.object_versions.all():
+        list_obj.append({'Key':obj_ver.object_key,
+                         'VersionId':obj_ver.id})
+
+    # print list of objects to be deleted
+    print(list_obj)
+
+    # delete all objects
+    bucket.delete_objects(Delete={'Objects':list_obj})
+
+
+delete_all_obj(new_bucket_name)
+
+
