@@ -70,6 +70,7 @@ def delete_all_obj(bucket_name):
     bucket.delete_objects(Delete={'Objects':list_obj})
 
 
+# call function to delete all objects in a non-empty bucket
 delete_all_obj(new_bucket_name)
 
 
