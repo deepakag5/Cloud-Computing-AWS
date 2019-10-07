@@ -29,3 +29,15 @@ s3.create_bucket(Bucket=new_bucket_name)
 s3.Object(new_bucket_name, file_name).upload_file(file_name)
 
 
+# copying file between buckets
+def copy_to_bucket(bucket_from, bucket_to, file_name):
+    copy_resource = {
+        'Bucket' : bucket_from,
+        'Key' : file_name
+    }
+
+    s3.Object(bucket_to, file_name).copy(copy_resource)
+
+
+FILE_TO_COPY = "20190303_cnty_acs_2013_2017_absolute_values.csv"
+copy_to_bucket(bucket_name,new_bucket_name,FILE_TO_COPY)
